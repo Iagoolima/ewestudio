@@ -1,0 +1,11 @@
+@media screen and (max-width:1444px) {
+    .box_main_one_text{
+        width: 95%;
+    }
+    .title_text h1{
+        font-size:6em;
+    }
+    .title_text h2{
+        font-size:3em ;
+    }
+}

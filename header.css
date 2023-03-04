@@ -8,6 +8,7 @@ header{
     align-items: center;
     position: fixed;
     z-index: 100;
+    box-shadow: 1px 1px 10px silver;
 }
 
 .box_img_header img{

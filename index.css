@@ -2,11 +2,23 @@
     font-family: text-0;
     src: url(font/static/Montserrat-ExtraBold.ttf);
 }
+@font-face {
+    font-family: text-1;
+    src: url(font/Lovelo\ Black.otf);
+}
+@font-face {
+    font-family: text-2;
+    src: url(font/Comfortaa-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: text-3;
+    src: url(font/Amsterdam.ttf);
+}
 :root{
     
     --green-0:#8fdd53;
-    --green-1:;
-    --green-2:;
+    --green-1:#4b8d58;
+    --green-2:#f0fde6b6;
     --green-3:;
     --white-0:#efefef;
     --white-1:;
@@ -23,7 +35,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+body, #content{
     height: auto;
     width: 100%;
 }
@@ -31,9 +43,103 @@ body{
 
 
 
-.box_img_header img{
+
+
+/* pag 1 */
+
+.main_one{
     width: 100%;
-    height:6.8rem;
+    height:52rem;
+    display: flex;
+}
+
+.box_one{
+    margin-top: 6rem;
+    width: 50%;
+    height: 100%;
+}
+.container_left{
+    background-image: url(img/img_main_one.avif);
+    background-size: cover;
+}
+.container_right{
+    background-color: var(--green-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box_main_one_text{
+    width: 90%;
+    height: 100%;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8rem;
+}
+.default_text_title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
 }
 
 
+.sub_top_title_text{
+    font-size:2.5em ;
+    font-family:text-3;
+    letter-spacing: 8px;
+    color: var(--green-1);
+}
+
+
+
+.title_text h1{
+    font-size:7em ;
+    font-family:text-1;
+    color: var(--green-0);
+    
+   
+}
+.title_text h2{
+    font-size:3.3em ;
+    font-family:text-2;
+    color: var(--green-1);
+}
+
+
+.sub_low_title_text p{
+    font-size:2em ;
+    font-family:text-2;
+    color: var(--green-1);
+}
+
+.sub_low_title_text a{
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    font-size: 2rem;
+    font-family: text-0;
+    text-decoration: none;
+    color: white;
+
+    width: 35%;
+    height: 3rem;
+    background-color: var(--green-0);
+    border-radius: 2rem;
+
+    transition: 2s;
+}
+.sub_low_title_text a:hover{
+    background-color: var(--green-2);
+    color: var(--green-0);
+    border: 2px solid var(--green-0);
+    transition: 0.5s;
+}

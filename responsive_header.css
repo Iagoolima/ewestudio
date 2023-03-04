@@ -43,12 +43,6 @@
         border: none;
     }
 
-    #home {
-        display: block;
-        text-align: center;
-        display: flex;
-        align-items: center;
-    }
 
     #navigation_header {
         position: absolute;
@@ -75,7 +69,7 @@
     }
     .button_header:hover{
         border-bottom: 0px solid transparent;
-        background-color: silver;
+        background-color: rgba(255, 255, 255, 0.233);
         border-radius: 10px;
         
         text-shadow: 1px 1px 10px rgb(150, 148, 148);
@@ -87,14 +81,17 @@
 }
 
 @media screen and (max-width:500px) {
-    #img_logo {
-        width: 150px;
+
+    header{
+        height: 5rem;
     }
+    .box_img_header img {
+        height:4.8rem ;
+    }
+  
 
     .button_header{
-    
         font-size: 0.8em;
-     
     }
 
 
