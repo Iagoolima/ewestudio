@@ -59,25 +59,26 @@ body, #content{
     height: 100%;
 }
 .container_left{
-    background-image: url(img/img_main_one.avif);
-    background-size: cover;
-}
-.container_right{
     background-color: var(--green-2);
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
+.container_right{
+    background-image: url(img/img_main_one.avif);
+    background-size: cover;
+}
 .box_main_one_text{
-    width: 90%;
-    height: 100%;
+    width: 95%;
+    height: 90%;
     padding-bottom: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 8rem;
+    border-right: 1rem dotted var(--green-1); 
 }
 .default_text_title{
     align-items: center;
@@ -109,16 +110,20 @@ body, #content{
     font-family:text-2;
     color: var(--green-1);
 }
-
-
+.sub_low_title_text{
+    
+    
+}
 .sub_low_title_text p{
     font-size:2em ;
     font-family:text-2;
     color: var(--green-1);
+  
 }
 
 .sub_low_title_text a{
     margin-top: 2rem;
+    margin-bottom: 1rem;
 
     display: flex;
     justify-content: center;
