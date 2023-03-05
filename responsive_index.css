@@ -1,11 +1,138 @@
 @media screen and (max-width:1444px) {
-    .box_main_one_text{
-        width: 95%;
-    }
     .title_text h1{
         font-size:6em;
     }
     .title_text h2{
         font-size:3em ;
     }
+}
+
+@media screen and (max-width:1366px) {
+    .box_main_one_text{
+        gap: 6rem;
+    }
+}
+@media screen and (max-width:1280px) {
+    .title_text h1{
+        font-size:5.4em;
+    }
+    .title_text h2{
+        font-size:2.4em ;
+    }
+    .sub_low_title_text p{
+        font-size:1.8em ;
+    }
+
+   
+}
+
+
+@media screen and (max-width:1120px) {
+
+    .sub_top_title_text{
+        font-size:2.2em ;
+    }
+    .title_text h1{
+        font-size:4.8em;
+    }
+    .title_text h2{
+        font-size:2.4em ;
+    }
+    .sub_low_title_text a{
+        font-size: 1.5em;
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+
+    .sub_top_title_text{
+        font-size:2em ;
+    }
+    .title_text h1{
+        font-size:4em;
+    }
+    .title_text h2{
+        font-size:2em ;
+    }
+    .sub_low_title_text p{
+        font-size:1.6em ;
+    }
+    .sub_low_title_text a{
+        font-size: 1.2em;
+    }
+    
+}
+@media screen and (max-width:870px) {
+    .sub_top_title_text{
+        font-size:1.7em ;
+    }
+    .title_text h1{
+        font-size:3.7em;
+    }
+    .title_text h2{
+        font-size:1.8em ;
+    }
+    .sub_low_title_text p{
+        font-size:1.4em ;
+    }
+    .sub_low_title_text a{
+        font-size: 1em;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .main_one{
+        flex-direction: column;
+        height: 55rem;
+    }
+    .box_one{
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    .container_left{
+        margin-top: 6rem;
+        height: 60%;
+    }
+    .container_right{
+        height: 40%;
+    }
+
+
+    .box_main_one_text{
+       
+        gap: 1.2rem;
+        border-right: none; 
+        border-bottom: 1rem dotted var(--green-1); 
+    }
+    .sub_low_title_text a{
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .container_left{
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width:380px) {
+    .main_one{
+    height: 52rem;
+    }
+
+    .title_text h1{
+        font-size:3.5em;
+    }
+    .title_text h2{
+        font-size:1.6em ;
+    }
+    .sub_low_title_text p{
+        font-size:1.2em ;
+    }
+
 }
