@@ -167,3 +167,31 @@
         }
 
 }
+@media screen and (max-width:300px) {
+    .sub_top_title_text{
+        font-size:1.1em ;
+    }
+        .title_text h1{
+            font-size:2.7em;
+        }
+        .title_text h2{
+            font-size:1em ;
+        }
+        .sub_low_title_text p{
+            font-size:1em ;
+        }
+
+}
+@media screen and (max-width:260px) {
+    .sub_top_title_text{
+        font-size:1.1em ;
+    }
+        .title_text h1{
+            font-size:2.3em;
+        }
+        .title_text h2{
+            font-size:1em ;
+        }
+      
+
+}
