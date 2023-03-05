@@ -100,7 +100,9 @@ body, #content{
 }
 
 
-
+.title_text{
+    width: 100%;
+}
 .title_text h1{
     font-size:7em ;
     font-family:text-1;

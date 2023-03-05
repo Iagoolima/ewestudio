@@ -107,6 +107,7 @@
         gap: 1.2rem;
         border-right: none; 
         border-bottom: 1rem dotted var(--green-1); 
+        padding-bottom: 3rem;
     }
     .sub_low_title_text a{
         margin-top: 2rem;
@@ -118,9 +119,16 @@
     .container_left{
         margin-top: 5rem;
     }
+    .box_main_one_text{
+        gap: 2rem;
+        padding-bottom: 1rem;
+    }
 }
 
 @media screen and (max-width:380px) {
+    .box_main_one_text{
+        width: 100%;
+    }
     .main_one{
     height: 52rem;
     }
