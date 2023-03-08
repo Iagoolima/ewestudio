@@ -1,8 +1,15 @@
 /* header */
 @media screen and (max-width:1444px) {
+    header{
+        height: 5rem;
+    }
     .box_img_header img {
+        height:4.8rem ;
         width: auto;
     }
+
+   
+    
 
     #navigation_header {
         gap: 5rem;
@@ -82,9 +89,6 @@
 
 @media screen and (max-width:500px) {
 
-    header{
-        height: 5rem;
-    }
     .box_img_header img {
         height:4.8rem ;
     }

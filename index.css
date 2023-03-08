@@ -19,7 +19,8 @@
     --green-0:#8fdd53;
     --green-1:#4b8d58;
     --green-2:#f0fde6b6;
-    --green-3:
+    --green-3:#035212;
+    --green-4:#518246;
     --white-0:#efefef;
     --white-1:
 }
@@ -35,19 +36,22 @@
     margin: 0;
     box-sizing: border-box;
 }
-body, #content{
+body{
     
     height: auto;
     width: 100%;
 }
 
 
-
+#content{
+    padding-top: 6rem;
+}
 
 
 /* pag 1 */
 
 .main_one{
+    
     background-color: var(--green-2);
     width: 100%;
     height:52rem;
@@ -55,7 +59,7 @@ body, #content{
 }
 
 .box_one{
-    margin-top: 6rem;
+    
     width: 50%;
     height: 100%;
 }
@@ -154,6 +158,107 @@ body, #content{
     transition: 0.5s;
 }
 
+
+
+
+
+/* page 2 */
+
+.main_two{
+    height: 55rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--green-1);
+}
+.container_left_two{
+    
+    height: 90%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_mid_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 90%;
+    width: 30%;
+    
+}
+.container_right_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    height: 90%;
+    width: 25%;
+}
+
+.img_main_two_left{
+    background-image: url(img/img_main_two_left.avif);
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    box-shadow: 1px 1px 40px rgba(88, 88, 88, 0.445);
+
+    border-radius: 3px;
+
+    height: 90%;
+    width: 80%;
+}
+.box_text_two_mid{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.box_text_two_mid h3{
+    font-family: text-3;
+    color: var(--green-3);
+    text-align: left;
+    font-size: 3em;
+    letter-spacing: 4px;
+    width: 130%;
+   
+}
+.material-symbols-outlined{
+    color: var(--green-3);
+   
+}
+.box_text_two_mid h2{
+    font-family: text-2;
+    color: var(--green-2);
+    font-size: 1.8em;
+    text-align: left;
+}
+.title_main_two{
+    font-family: text-1;
+}
+
+.img_main_two_right{
+    background-image: url(img/img_main_two_right.avif);
+
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    border-radius: 3px;
+
+    box-shadow: 1px 1px 40px rgba(88, 88, 88, 0.445);
+
+    height: 70%;
+    width: 90%;
+}
 
 
 

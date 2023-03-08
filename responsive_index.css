@@ -5,6 +5,9 @@
     .title_text h2{
         font-size:3em ;
     }
+    #content{
+        padding-top: 5rem;
+    } 
 }
 
 @media screen and (max-width:1366px) {
@@ -94,7 +97,6 @@
 
 
     .container_left{
-        margin-top: 6rem;
         height: 60%;
     }
     .container_right{
@@ -116,9 +118,10 @@
 }
 
 @media screen and (max-width:500px) {
-    .container_left{
-        margin-top: 5rem;
+    #content{
+        padding-top: 5rem;
     }
+    
     .box_main_one_text{
         gap: 2rem;
         padding-bottom: 1rem;
