@@ -8,11 +8,18 @@
     #content{
         padding-top: 5rem;
     } 
+    .main_one{
+        height: 50rem;
+    }
+
 }
 
 @media screen and (max-width:1366px) {
     .box_main_one_text{
         gap: 6rem;
+    }
+    .main_one{
+        height: 42rem;
     }
 }
 @media screen and (max-width:1280px) {
@@ -123,7 +130,7 @@
     }
     
     .box_main_one_text{
-        gap: 2rem;
+        gap: 2.5rem;
         padding-bottom: 1rem;
     }
 }
@@ -221,10 +228,23 @@
     .box_text_two_mid h2{
         font-size: 1.5em;
     }
+} 
+@media screen and (max-width:1444px){
+    .box_text_two_mid h3{
+        font-size: 2.6em;
+        width: 150%;
+    }
 
+    .box_text_two_mid h2{
+        font-size: 1.5em;
+    }
+    .img_main_two_right{
+    height: 60%;
+
+    }
 
 } 
-@media screen and (max-width:1255px){
+@media screen and (max-width:1280px){
     .box_text_two_mid h3{
         font-size: 2em;
         width: 150%;
@@ -277,35 +297,63 @@
         
     }
     .main_two{
-        height: 45rem;
+        height: 38rem;
     }
 }
-@media screen and (max-width:415px){
+@media screen and (max-width:730px){
+ .main_two{
+        height: 40rem;
+    }
+}
+@media screen and (max-width:700px){
+ .main_two{
+        height: 44rem;
+    }
+}
+@media screen and (max-width:420px){
 
     .main_two{
-        height: 50rem;
+        height: 45rem;
+    }
+    .container_mid_two{
+        width: 99%;
+        padding-left: 2%;
     }
 }
 @media screen and (max-width:385px){
 
     .main_two{
-        height: 53rem;
+        height: 42rem;
     }
     .box_text_two_mid{
         gap: 2.5rem;
     }
+    .box_text_two_mid h2{
+   font-size: 1.3em;
+}
+    
+
+} 
    
+@media screen and (max-width:365px){
+
+    .main_two{
+        height: 45rem;
+    }
+}
+@media screen and (max-width:360px){
+
+    .main_two{
+        height: 47rem;
+    }
 }
 @media screen and (max-width:345px){
 .box_text_two_mid h3{
    font-size: 1.6em;
 }
-.box_text_two_mid h2{
-    font-size: 1.1em;
 
-} 
 .main_two{
-    height: 45rem;
+    height: 50rem;
 }
 
 }
@@ -318,13 +366,13 @@
      
      } 
     .main_two{
-        height: 42rem;
+        height: 41rem;
     }
 }
 @media screen and (max-width:300px){
     
     .main_two{
-        height: 45rem;
+        height: 41rem;
     }
 
     

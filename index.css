@@ -229,7 +229,7 @@ body{
     color: var(--green-0);
     text-align: left;
     font-size: 2.8em;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     width: 130%;
    
 }
@@ -267,25 +267,77 @@ body{
 /* PAGE 3 */
 
 .main_three{
-    height: 56rem;
+    height: 45rem;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: var(--green-4);
+    background-image: url(img/img_main_three.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
 .container_left_three{
-    width: 60%;
+    width: 40%;
     height: 90%;
-    background-color: red;
-    z-index: 100;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
+
+.box_text_left_three{
+    width: 70%;
+    height: 50%;
+}
+.box_text_left_three h1{
+    color: white;
+    font-size: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container_right_three{
-    width: 50%;
+    width: 60%;
     height: 100%;
-    background-color: black;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main_four{
+    height: 10rem;
+    width: 100%;
 }
