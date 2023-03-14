@@ -16,10 +16,10 @@
 
 @media screen and (max-width:1366px) {
     .box_main_one_text{
-        gap: 6rem;
+        gap: 4rem;
     }
     .main_one{
-        height: 42rem;
+        height: 39rem;
     }
 }
 @media screen and (max-width:1280px) {
@@ -244,10 +244,24 @@
     }
 
 } 
+@media screen and (max-width:1366px){
+    .box_text_two_mid h3{
+        font-size: 2.5em;
+       
+    }
+
+    .box_text_two_mid h2{
+        font-size: 1.3em;
+    }
+    .main_two{
+        height: 43rem;
+    }
+
+}
 @media screen and (max-width:1280px){
     .box_text_two_mid h3{
         font-size: 2em;
-        width: 150%;
+
     }
 
     .box_text_two_mid h2{
