@@ -538,12 +538,12 @@ body{
 
     padding-top: 5%;
 
-    background-color: var(--green-3);
+    background-color: var(--green-4);
 
 }
 
 
-.box_title{
+.box_title_six{
     display: flex;
     width:30%;
     height: auto;
@@ -552,16 +552,13 @@ body{
     
     border-bottom:1rem dotted var(--green-0) ;
 
-}
-
-.box_title h1{
     color: white;
     font-family: text-1;
-    font-size: 5em;
-    
-    
+    font-size: 2.5em;
 
 }
+
+
 .container_top_six{
     width: 80%;
     height: 30%;
@@ -588,15 +585,60 @@ body{
     width: 60%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: top;
+    align-items: center;
+}
+.container_bottom_left_six h1{
+    text-align: center;
+    color: var(--green-0);
+}
+.container_bottom_left_six h1 span{
+    color:white
+}
+
+.container_box_card_six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 
 
+.box_card_six{
+    width: 22%;
+    height: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    gap: 1rem   ;
+}
+.box_card_six img{
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.box_card_six h2{
+    font-size: 2em;
+    font-family: text-2;
+    color: white;
 
-
-
+}
+.box_card_six h3{
+    font-size: 1em;
+    font-family: text-3;
+    color: var(--green-2);
+    letter-spacing: 3px;
+    padding-top: 1rem;
+    
+}
 
 
 
