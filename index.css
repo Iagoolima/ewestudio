@@ -43,11 +43,13 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 body{
     
     height: auto;
     width: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -450,7 +452,7 @@ body{
 
 }
 .box_text_card_four h4{
-    font-size: 1.5em;
+    font-size: 1.4em;
     color: var(--green-4);
     font-family: text-3;
     letter-spacing: 2px;
@@ -482,13 +484,17 @@ body{
     width: 40%;
     height: 100%;
     padding-top: 5%;
+   
+   
   
 
 }
 .container_right_five h1{
     color: var(--green-3);
+    width: 100%;
     font-size: 4em;
     font-family: text-0;
+    display: flex;
     border-bottom: 1rem dotted var(--green-0) ;
 }
 
@@ -517,13 +523,13 @@ body{
 }
 .box_text_card_five h2{
     color: white;
-    font-size: 2em;
+    font-size: 1.3em;
     font-family: text-3;
     letter-spacing: 2px;
 }
 .box_text_card_five h3{
     color: var(--green-2);
-    font-size: 1.5em;
+    font-size: 2em;
     font-family: text-2;
     
 }
@@ -538,7 +544,7 @@ body{
 
     padding-top: 5%;
 
-    background-color: var(--green-4);
+    background-color: var(--green-1);
 
 }
 
@@ -645,10 +651,10 @@ body{
 
 
 .container_bottom_right_six{
-    background-image: url(img/img_main_card_five_3.avif);
+    background-image: url(img/img_main_six.avif);
     width: 40%;
     height: 100%;
-
+    
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -661,8 +667,8 @@ footer{
     display: flex;
     flex-direction: column;
 
-    background-color: var(--green-3);
-    border-top: 4px solid var(--green-0);
+    background-color: var(--green-1);
+  
 }
 .container_footer{
     width: 100%;
@@ -674,9 +680,10 @@ footer{
 .container_left_footer{
     width: 40%;
     height: 100%;
-    background-image: url(img/img_bgfundo.avif);
+    background-image: url(img/img_main_footer.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: top;
 
 }
 
@@ -690,7 +697,7 @@ footer{
     outline: none;
     text-decoration: none;
     color: white;
-    gap: 7rem;
+    gap: 6rem;
     padding-top: 2rem;
 
 }
@@ -702,24 +709,98 @@ footer{
     text-align: center;
     font-size: 1.5em;
 }
+.box_contact h4{
+    color: var(--green-0);
+}
+
 .box_numbers{
     width: 100%;
     height: auto;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
     text-align: center;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
     
 }
 
 .box_numbers a{
     text-decoration: none;
-    color: white;+++fs
-    font-size: 1em;
+    color: white;
+    font-size: 1.2em;
+}
+.box_numbers a:hover{
+   color: rgba(255, 255, 255, 0.856);;
+    
+    
+}
+
+.box_address{
+    width: 100%;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2em;
+    text-align: center;
+    
+}
+
+.box_address a{
+    width: 20%;
+    height: auto;
+    background-color: var(--green-2);
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--green-3);
+    border-radius: 10px;
+    font-family: text-0
+    
+}
+
+.box_address a:hover{
+    background-color:var(--green-3) ;
+    color:var(--green-2) ;
 }
 
 
+.box_social_media{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
 
+.box_social_media h3{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
 
+.box_icons{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    
+}
+.box_icons svg{
+    color: white;
+}
 
+.box_icons svg:hover{
+    color: rgba(255, 255, 255, 0.856);
+}
+#servicos{
+    position: relative;
+    top: -70px;
+}
 
 
 
@@ -760,12 +841,13 @@ footer{
 
 .sub_footer{
     height: 4rem;
-    background-color: white;
+    background-color: transparent;
     justify-content: center;
     align-items: center;
     width: 100%;
     display: flex;
 
+    color: white;
     font-size: 1em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 

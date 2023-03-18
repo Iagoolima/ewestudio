@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="header.css">
     <link rel="stylesheet" href="responsive_header.css">
     <link rel="stylesheet" href="responsive_index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
@@ -25,7 +26,8 @@
         </button>
 
         <div class="box_img_header">
-            <img src="img/logo_ewestudio.png" alt="img_logo">
+    
+            <img src="img/logo_ewestudio.png" alt="img_logo" id="top">
         </div>
 
         <nav id="navigation_header">
@@ -37,14 +39,14 @@
                 </svg>
             </button>
 
-            <a href="" class="button_header home">HOME</a>
-            <a href="" class="button_header">SERVIÇOS</a>
-            <a href="" class="button_header">SOBRE</a>
-            <a href="" class="button_header">CONTATO</a>
+            <a href="#top" class="button_header home">HOME</a>
+            <a href="#servicos" class="button_header">SERVIÇOS</a>
+            <a href="#sobre" class="button_header">SOBRE</a>
+            <a href="#contato" class="button_header">CONTATO</a>
         </nav>
     </header>
 
-    <main tabindex="0" onclick="closedSideBar()" id="content">
+    <main tabindex="0" onclick="closedSideBar()" id="content" id="top">
         <section class="main_one">
             <div class="container_left box_one">
                 <div class="box_main_one_text">
@@ -65,22 +67,23 @@
             <div class="container_right box_one">
 
             </div>
-        </section>
+            
+        </section >
 
 
 
 
 
-
+       
 
 
 
 
 
         <section class="main_two">
-
+            
             <div class="container_left_two">
-                <div class="img_main_two_left"></div>
+                <div class="img_main_two_left" data-aos="fade-right"></div>
             </div>
 
             <div class="container_mid_two">
@@ -109,23 +112,24 @@
             </div>
 
             <div class="container_right_two">
-                <div class="img_main_two_right">
+                <div class="img_main_two_right" data-aos="fade-left" >
 
                 </div>
-            </div>
+            </div >
 
         </section>
+        
+        <div id="servicos"></div>
 
-
-        <section class="main_three">
-            <div class="container_left_three">
-                <div class="box_text_left_three">
+        <section class="main_three" >
+            <div class="container_left_three" >
+                <div class="box_text_left_three"  data-aos="fade-right">
                     <h1><span>Transforme-se <br></span> Descubra nossos tratamentos estéticos exclusivos</h1>
                 </div>
 
             </div>
             <div class="container_right_three">
-                <div class="box_text_right_three">
+                <div class="box_text_right_three" data-aos="fade-left">
                     <h2><span>&#9734;</span><span class="title_main_three"> MICROAGULHAMENTO</span> <br> Estimula a
                         produção de colágeno, melhorando a textura e firmeza da pele.</h2>
                     <h2><span>&#9734;</span><span class="title_main_three"> PREENCHIMENTO FACIAL</span> <br> Preenche
@@ -165,7 +169,7 @@
             <div class="box_title_four">
                 <h1><span>Transformações incríveis </span><br> Antes e depois dos nossos serviços de estética</h1>
             </div>
-            <div class="container_card_four">
+            <div class="container_card_four" data-aos="fade-bottom">
                 <div class="box_card_four">
                     <img src="img/img_main_card_four.avif" alt="">
                     <div class="box_text_card_four">
@@ -241,7 +245,7 @@
 
 
         <section class="main_five">
-            <div class="container_left_five">
+            <div class="container_left_five" data-aos="fade-right">
 
                 <div class="box_card_five">
                     <img src="img/img_main_card_five.avif" alt="">
@@ -297,6 +301,7 @@
 
 
 
+        <div id="sobre"></div>
 
         <section class="main_six">
             <div class="box_title_six">
@@ -313,7 +318,7 @@
             <div class="container_bottom_six">
 
 
-                <div class="container_bottom_left_six">
+                <div class="container_bottom_left_six" data-aos="fade-top">
 
                     <h1><span>Nossas</span> <br> profissionais</h1>
                     <div class="container_box_card_six">
@@ -363,10 +368,11 @@
                 <div class="container_right_footer">
                     <div class="box_contact">
                         <h1>CONTATE-NOS</h1>
+                        <h4>Agende seu horario</h4>
                     </div>
 
                     <div class="box_numbers">
-
+                      
                         <a href="https://api.whatsapp.com/send?phone=5511947492788&text=Ol%C3%A1%21+estou+no+site+FLORA+EVORA+PAISAGISMO+e+gostaria+de+mais+informa%C3%A7%C3%B5es."
                             target="_blank">
                             <h3>11 91234-4321 <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25"
@@ -395,13 +401,13 @@
                         </h3>
                     </div>
 
-                    <div class="address">
+                    <div class="box_address">
                         <h3>Rua Fulano, 123 andar 1 sala 5 <br>
                             Bairro centro, Suzano-SP cep: 08660-000</h3>
                         <a href="">MAPA</a>
                     </div>
 
-                    <div class="social_media">
+                    <div class="box_social_media">
                         <h3>Siga-nos </h3>
                         <div class="box_icons">
                             <a href="https://www.instagram.com/eweestetica/" target="_blank"><svg
@@ -423,12 +429,18 @@
 
             </div>
             <div class="sub_footer">
-                <h5>copyright Todos os direitos reservados</h5>
+                <h5>2022 &copy Todos os direitos reservados  </h5>
             </div>
         </footer>
     </main>
 
 </body>
 <script src="script_header.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1200,
+      });
+    </script>
 
 </html>
