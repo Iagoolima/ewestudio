@@ -37,7 +37,10 @@
 }
 
 
-
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
 
 *{
     padding: 0;
@@ -50,6 +53,8 @@ body{
     height: auto;
     width: 100%;
     overflow-x: hidden;
+    max-width: 100%;
+   
 }
 
 
@@ -800,6 +805,16 @@ footer{
 #servicos{
     position: relative;
     top: -70px;
+}
+#sobre{
+    position: relative;
+    top: -70px;
+    transition: 1s;
+}
+#contato{
+    position: relative;
+    top: -70px;
+    transition: 1s;
 }
 
 

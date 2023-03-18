@@ -33,3 +33,19 @@ window.addEventListener('resize', function (event) {
     }
 
 });
+$(document).ready(function() {
+    if (window.location.hash) {
+      window.location.hash = "";
+    }
+  });
+  
+$(document).ready(function() {
+    $('a.scroll-link').click(function(e) {
+      e.preventDefault();
+      var target = $(this.hash);
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      window.history.replaceState(null, null, window.location.pathname + window.location.search);
+    });
+  });
