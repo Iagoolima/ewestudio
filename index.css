@@ -3,6 +3,14 @@
     src: url(font/static/Montserrat-ExtraBold.ttf);
 }
 @font-face {
+    font-family: text-0-1;
+    src: url(font/static/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: text-0-2;
+    src: url(font/static/Montserrat-ExtraLight.ttf);
+}
+@font-face {
     font-family: text-1;
     src: url(font/Lovelo\ Black.otf);
 }
@@ -253,10 +261,11 @@ body{
    
 }
 .box_text_two_mid h2{
-    font-family: text-2;
+    font-family: text-0-2   ;
     color: var(--green-2);
     font-size: 1.8em;
     text-align: left;
+    
 }
 .title_main_two{
     font-family: text-1;
@@ -361,10 +370,12 @@ body{
     color: var(--white-0);
     
     font-size: 2em;
-    font-family: text-0;
+    font-family: text-0-1;
+    font-weight: 10;
 }
 
 .box_text_right_three span{
+    font-family: text-0;
     color: var(--green-0);
 }
 
@@ -575,10 +586,12 @@ body{
     height: 30%;
     margin-top: 4rem;
 }
-.container_top_six h1{
+.container_top_six p{
     color: white;
-    font-family: text-2;
+    font-family: text-0-2;
     font-size: 2em;
+    font-weight: 100;
+    line-height: 40px;
 }
 .container_bottom_six{
     width: 100%;

@@ -15,11 +15,23 @@
 }
 
 @media screen and (max-width:1366px) {
+    .title_text h1{
+        font-size:5.2em;
+    }
+    .title_text h2{
+        font-size:2.1em ;
+    }
+    .sub_low_title_text p{
+        font-size:1.4em ;
+    }
     .box_main_one_text{
         gap: 4rem;
     }
     .main_one{
         height: 39rem;
+    }
+    .sub_low_title_text a{
+        font-size: 1.2em;
     }
 }
 @media screen and (max-width:1280px) {
@@ -338,18 +350,21 @@
 @media screen and (max-width:420px){
 
     .main_two{
-        height: 50rem;
+        height: auto;
+        padding-top: 5%;
+        padding-bottom: 5%;
         
     }
     .container_mid_two{
         width: 99%;
         padding-left: 2%;
+        padding-bottom: 5%;
     }
 }
 @media screen and (max-width:385px){
 
     .main_two{
-        height: 42rem;
+        
 
     }
     .box_text_two_mid{
@@ -362,23 +377,11 @@
 } 
 @media screen and (max-width:375px){
 
-    .main_two{
-        height: 48rem;
-    }
+    
 }
    
-@media screen and (max-width:365px){
 
-    .main_two{
-        height: 45rem;
-    }
-}
-@media screen and (max-width:360px){
 
-    .main_two{
-        height: 47rem;
-    }
-}
 @media screen and (max-width:345px){
 .box_text_two_mid h3{
    font-size: 1.6em;
@@ -913,8 +916,8 @@
 
 /* page 6 */
 @media screen and (max-width:1444px){
-    .container_top_six h1{
-        font-size: 1.8em;
+    .container_top_six p{
+        font-size: 1.7em;
     }
     .box_title_six{
         font-size: 2.2em;
@@ -934,8 +937,9 @@
 
 }
 @media screen and (max-width:1366px){
-    .container_top_six h1{
+    .container_top_six p{
         font-size: 1.6em;
+       
     }
     .main_six{
         height: 80rem;
@@ -964,8 +968,9 @@
 }
 @media screen and (max-width:1280px){
   
-    .container_top_six h1{
-        font-size: 1.5em;
+    .container_top_six p{
+        font-size: 1.2em;
+        line-height: 30px;
     }
     .box_title_six{
         font-size: 2em;
@@ -990,7 +995,7 @@
 }
 @media screen and (max-width:834px){
   
-    .container_top_six h1{
+    .container_top_six p{
         font-size: 1.3em;
     }
     .box_title_six{
@@ -1015,8 +1020,9 @@
 }
 @media screen and (max-width:768px){
   
-    .container_top_six h1{
-        font-size: 1.3em;
+    .container_top_six p{
+        font-size: 1.4em;
+        line-height: 25px;
     }
     .box_title_six{
         font-size: 2em;
@@ -1024,7 +1030,7 @@
 
     .container_bottom_six h1{
 
-        font-size: 2.5rem;
+        font-size: 2em;
     }
 
     .box_card_six h2{
@@ -1038,8 +1044,8 @@
     }
     
 }
-@media screen and (max-width:600px){
-    .container_top_six h1{
+@media screen and (max-width:680px){
+    .container_top_six p{
         font-size: 1.2em;
     }
     .container_top_six {
@@ -1066,7 +1072,7 @@
    
 }
 @media screen and (max-width:520px){
-    .container_top_six h1{
+    .container_top_six p{
         font-size: 1.1em;
     }
     .container_top_six {
@@ -1112,16 +1118,21 @@
    }
 }
 @media screen and (max-width:425px){
-    .container_top_six h1{
+    .container_top_six p{
         font-size: 1em;
+        font-family: text-2;
+        line-height: 20px;
     }
     .container_top_six {
         width: 90%;
+        height: auto;
     }
     .box_title_six{
         font-size: 1.3em;
+        
     }
 
+   
     .container_bottom_six h1{
 
         font-size: 1.4em;
@@ -1226,6 +1237,7 @@
     }
     .box_address a{
         width: 25%;
+}
 }
 @media screen and (max-width:350px){
     .box_contact{
